@@ -1,15 +1,18 @@
-TITLE = "Zulul :D"
+TITLE = "GAME 5HEAD"
 WIDTH = 920
 HEIGHT = 480
 FPS = 60
 FONT_NAME = 'arial'
+HS_file = "hightscore.txt"
 
+MOB_FREQ = 1200
 
 #player
 PLAYER_ACC = 0.675
 PLAYER_FRICTION = -0.17
 PLAYER_GRAV = 0.6
 JUMP = -10
+ 
 
 #platforms
 PLATFORM_LVL1 = [#bottom
@@ -42,4 +45,5 @@ GREEN = (0,255,0)
 BLUE = (0,0,255)
 YELLOW = (255,255,0)
 LIGHTBLUE = (0,155,155)
+PINK = (255,105,180)
 BGCOLOR = LIGHTBLUE

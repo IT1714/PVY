@@ -5,9 +5,7 @@ from sprites import *
 from os import path
 vec = pg.math.Vector2
 
-#
-#
-#
+#Měla to být roguelike hra ale moc se to nepovedlo a neimplementoval jsem tam všechno co jsem chtěl, jako například nastavení zvuku nebo tlačítka pro ovládání
 
 class Game:
     def __init__(self):

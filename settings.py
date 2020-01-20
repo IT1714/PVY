@@ -4,21 +4,21 @@ HEIGHT = 480
 FPS = 60
 FONT_NAME = 'arial'
 HS_file = "hightscore.txt"
-
-MOB_FREQ = 1200
+MS_file = "settings.txt"
+MOB_FREQ = 6000
 
 #player
-PLAYER_ACC = 0.675
-PLAYER_FRICTION = -0.17
+PLAYER_ACC = 0.5
+PLAYER_FRICTION = -0.16
 PLAYER_GRAV = 0.6
 JUMP = -10
  
 
 #platforms
 PLATFORM_LVL1 = [#bottom
-                (20, HEIGHT - 20, WIDTH/5,20),
-                (WIDTH/2-75,HEIGHT-20,150,20),
-                (WIDTH-WIDTH/5-20,HEIGHT-20,WIDTH/5-20,20),
+                (0, HEIGHT - 20, WIDTH,20),
+               # (WIDTH/2-75,HEIGHT-20,150,20),
+                #(WIDTH-WIDTH/5-20,HEIGHT-20,WIDTH/5-20,20),
                 #left
                 (WIDTH/8,(HEIGHT/7)*6,75,10),
                 (WIDTH/4,HEIGHT*0.7,100,10),
@@ -46,4 +46,5 @@ BLUE = (0,0,255)
 YELLOW = (255,255,0)
 LIGHTBLUE = (0,155,155)
 PINK = (255,105,180)
+PURPLE = (148,0,211)
 BGCOLOR = LIGHTBLUE
